@@ -19,4 +19,4 @@ app.get("/about", (req, res) => {
 app.get("/home" , (req, res) => {
     res.send("This is home page")
 })
-app.listen( process.env.PORT||3000) //server stsrt ho rha h 
+app.listen(process.env.PORT||3000) //server stsrt ho rha h 
